@@ -64,11 +64,3 @@ export const getErc20Balance = async (userAddress: string, tokenAddress: string,
 
     return balance
 }
-
-
-getErc20Balance("0x0a59649758aa4d66e25f08dd01271e891fe52199", "0x925e9A45C2B576D6AE81d0C4fD57241c7B7364Ed", "1", {
-    startBlock: 27783283,
-    endBlock: 27783558,
-    rpcUrl: 'https://polygon-mumbai.g.alchemy.com/v2/Tv9MYE2mD4zn3ziBLd6S94HvLLjTocju',
-    paginateLimit: 100
-}).then(a => console.log(a)).catch(e => console.error(e))
