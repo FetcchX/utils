@@ -1,8 +1,26 @@
 {
-  "name": "@wagpay/erc20-balance",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "@fetcch/erc20-balance",
+	"version": "0.3.5",
+	"description": "Get balance of an address",
+	"keywords": [
+		"cross-chain",
+		"cryptocurrency",
+		"blockchain"
+	],
+	"homepage": "https://wagpay.xyz/developers",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"author": "Satyam Kulkarni",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint . --ext .ts",
+		"start": "node ./dist --env=production",
+		"publish:npm": "yarn build && npm publish"
+	},
+  "files": [
+		"dist"
+	],
   "devDependencies": {
     "@types/node": "^18.7.13",
     "typescript": "^4.8.2"
@@ -10,5 +28,9 @@
   "dependencies": {
     "ethers": "^5.7.0",
     "ts-node": "^10.9.1"
-  }
+  },
+  "publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	}
 }
