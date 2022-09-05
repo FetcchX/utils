@@ -1,15 +1,16 @@
 {
-	"name": "@fetcch/chain-data",
-	"version": "0.0.1",
+	"name": "fetcch-chain-data",
+	"version": "0.0.2",
 	"description": "Chain Data for Fetcch",
 	"keywords": [
 		"cross-chain",
 		"cryptocurrency",
 		"blockchain"
 	],
-	"homepage": "https://wagpay.xyz/developers",
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"homepage": "https://github.com/WagPay/utils",
+	"repository": "https://github.com/WagPay/utils",
+	"main": "./dist/src/index.js",
+	"types": "./dist/src/index.d.ts",
 	"author": "Satyam Kulkarni",
 	"license": "MIT",
 	"scripts": {
@@ -26,8 +27,6 @@
 		"typescript": "^4.8.2"
 	},
 	"dependencies": {
-		"axios": "^0.27.2",
-		"ethers": "^5.7.0",
 		"ts-node": "^10.9.1"
 	},
 	"publishConfig": {

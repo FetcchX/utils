@@ -44,7 +44,7 @@ export const getChain = (params: { internalId?: number, chainId?: number }) => {
 export const getToken = (address: string, chain: string) => {
     const allTokens = tokens[chain]
 
-    return allTokens.find((token: any) => token.address === address)
+    return allTokens.find((token: any) => token.address.toLowerCase() === address.toLowerCase())
 }
 
 export * from "./getInternalChainId"

@@ -2,6 +2,24 @@ export const tokens: any = {
     "1": [
         {
             "chainId": 1,
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+            "extensions": {
+                "bridgeInfo": {
+                    "137": {
+                        "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+                    },
+                    "42161": {
+                        "tokenAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+                    }
+                }
+            }
+        },
+        {
+            "chainId": 1,
             "address": "0x111111111117dC0aa78b770fA6A738034120C302",
             "name": "1inch",
             "symbol": "1INCH",
@@ -2506,6 +2524,24 @@ export const tokens: any = {
         }
     ],
     "2": [
+        {
+            "chainId": 137,
+            "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+            "name": "Matic",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+            "extensions": {
+                "bridgeInfo": {
+                    "1": {
+                        "tokenAddress": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+                    },
+                    "42161": {
+                        "tokenAddress": "0x561877b6b3DD7651313794e5F2894B2F18bE0766"
+                    }
+                }
+            }
+        },
         {
             "chainId": 137,
             "address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
