@@ -1,9 +1,8 @@
-import { chainData } from "../src"
+import { chainData, getChain } from "../src"
+import { tokens } from "../tokens"
 
 const main = () => {
-    chainData.map(chain => {
-        console.log(chain.nativeCurrency.name)
-    })
+    console.log(tokens['12'])
 }
 
 main()

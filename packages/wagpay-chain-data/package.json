@@ -1,6 +1,6 @@
 {
 	"name": "fetcch-chain-data",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"description": "Chain Data for Fetcch",
 	"keywords": [
 		"cross-chain",

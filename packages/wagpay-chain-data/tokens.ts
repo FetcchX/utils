@@ -5625,5 +5625,39 @@ export const tokens: any = {
                 }
             }
         }
+    ],
+    "12": [
+        {
+            "chainId": 80001,
+            "address": "0x925e9A45C2B576D6AE81d0C4fD57241c7B7364Ed",
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+            "extensions": {
+                "bridgeInfo": {
+                    "97": {
+                        "tokenAddress": "0x0F1B31723aB54D45aFd80D94542677881d524d8F"
+                    }
+                }
+            }
+        },  
+    ],
+    "13": [
+        {
+            "chainId": 80001,
+            "address": "0x0F1B31723aB54D45aFd80D94542677881d524d8F",
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+            "extensions": {
+                "bridgeInfo": {
+                    "80001": {
+                        "tokenAddress": "0x925e9A45C2B576D6AE81d0C4fD57241c7B7364Ed"
+                    }
+                }
+            }
+        },  
     ]
 }

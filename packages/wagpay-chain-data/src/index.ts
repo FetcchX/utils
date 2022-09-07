@@ -17,6 +17,7 @@ export interface Chain {
     internalId: number
     chainId: number
     name: string
+    icon: string
     explorers: Explorer[]
     chainType: string
     rpcUrls: string[]
@@ -41,9 +42,22 @@ export const getChain = (params: { internalId?: number, chainId?: number }) => {
     }
 }
 
+export const getChains = () => {
+    return chainData
+}
+
+export const getTokens = (internalId?: number) => {
+    if(!internalId) {
+        return tokens
+    }
+
+    return tokens[internalId]
+}
+
+
 export const getToken = (address: string, chain: string) => {
     const allTokens = tokens[chain]
-
+    
     return allTokens.find((token: any) => token.address.toLowerCase() === address.toLowerCase())
 }
 

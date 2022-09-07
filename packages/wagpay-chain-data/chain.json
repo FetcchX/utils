@@ -3,7 +3,7 @@
         "internalId": 1,
         "name": "Ethereum Mainnet",
         "chain": "ETH",
-        "icon": "ethereum",
+        "icon": "https://ethereum.org/static/6b935ac0e6194247347855dc3d328e83/81d9f/eth-diamond-black.webp",
         "rpc": [
             "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
             "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
@@ -36,6 +36,7 @@
         "internalId": 3,
         "name": "Binance Smart Chain Mainnet",
         "chain": "BSC",
+        "icon": "https://bscscan.com/images/svg/brands/bnb.svg?v=1.3",
         "rpc": [
             "https://bsc-dataseed1.binance.org",
             "https://bsc-dataseed2.binance.org",
@@ -76,6 +77,7 @@
         "internalId": 2,
         "name": "Polygon Mainnet",
         "chain": "Polygon",
+        "icon": "https://res.cloudinary.com/polygontech/image/upload/f_auto,q_auto,dpr_2,w_44,h_44/Polygon_Po_S_d1987f7e1e",
         "rpc": [
             "https://polygon-rpc.com/",
             "https://rpc-mainnet.matic.network",
@@ -107,6 +109,7 @@
         "internalId": 4,
         "name": "Avalanche C-Chain",
         "chain": "AVAX",
+        "icon": "https://assets-global.website-files.com/6059b554e81c705f9dd2dd32/628692ef405f676b64a3fd20_avalanche-iso.svg",
         "rpc": [
             "https://api.avax.network/ext/bc/C/rpc"
         ],
@@ -138,6 +141,7 @@
         "rpc": [
             "https://mainnet.optimism.io/"
         ],
+        "icon": "https://github.com/ethereum-optimism/brand-kit/blob/main/assets/images/Profile-Logo.png?raw=true",
         "faucets": [],
         "nativeCurrency": {
             "name": "Ether",
@@ -159,6 +163,7 @@
     {
         "internalId": 7,
         "name": "Arbitrum One",
+        "icon": "https://offchainlabs.com/wp-content/themes/offchain/images/home/arbitrum/arbirtum_logo.svg",
         "chainId": 42161,
         "shortName": "arb1",
         "chain": "ETH",
@@ -178,6 +183,66 @@
             {
                 "name": "Arbiscan",
                 "url": "https://arbiscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "internalId": 12,
+        "name": "Polygon Mumbai",
+        "chain": "MATIC",
+        "icon": "https://res.cloudinary.com/polygontech/image/upload/f_auto,q_auto,dpr_2,w_44,h_44/Polygon_Po_S_d1987f7e1e",
+        "rpc": [
+            "https://polygon-rpc.com/"
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "MATIC",
+            "symbol": "MATIC",
+            "decimals": 18
+        },
+        "infoURL": "https://ethereum.org",
+        "shortName": "matic",
+        "chainId": 80001,
+        "networkId": 80001,
+        "slip44": 60,
+        "ens": {
+            "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+        },
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://etherscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "internalId": 13,
+        "name": "Binance Smart Chain Testnet",
+        "chain": "BNB",
+        "icon": "https://bscscan.com/images/svg/brands/bnb.svg?v=1.3",
+        "rpc": [
+            "https://polygon-rpc.com/"
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18
+        },
+        "infoURL": "https://ethereum.org",
+        "shortName": "matic",
+        "chainId": 97,
+        "networkId": 97,
+        "slip44": 60,
+        "ens": {
+            "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+        },
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://etherscan.io",
                 "standard": "EIP3091"
             }
         ]
