@@ -54,6 +54,11 @@ export const getTokens = (internalId?: number) => {
     return tokens[internalId]
 }
 
+export const getTokenByName = (name: string, chain: string) => {
+    const tokens = getTokens(Number(chain))
+
+    return tokens.find((t: any) => t.symbol === name)
+}
 
 export const getToken = (address: string, chain: string) => {
     const allTokens = tokens[chain]
