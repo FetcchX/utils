@@ -7,7 +7,7 @@ const chain_id: any = {
   "4": "56",
 };
 
-export const findForignAsset = (
+export const getForiegnAsset = (
   token_address: string,
   from_chain: string,
   to_chain: string
