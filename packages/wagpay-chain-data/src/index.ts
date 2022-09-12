@@ -63,4 +63,6 @@ export const getToken = (address: string, chain: string) => {
 
 export declare const getTokenByName: (name: string, chain: string) => any;
 
+export * from "./getforiegnasset";
+
 export * from "./getInternalChainId";
